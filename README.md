@@ -22,7 +22,6 @@ Show the filtered image
 
 i) Using Averaging Filter
 ```Python
-
 import cv2
 import numpy as np
 image = cv2.imread("cat.jpg")
@@ -35,12 +34,9 @@ box_filter = cv2.filter2D(original_image,-1,kernel1)
 cv2.imshow('box_filter',box_filter)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
 ```
 ii) Using Weighted Averaging Filter
 ```Python
-
 #ii) Using Weighted Averaging Filter
 import cv2
 import numpy as np
@@ -54,9 +50,6 @@ weighted_filter = cv2.filter2D(original_image,-1,kernel2)
 cv2.imshow('weighted_filter',weighted_filter)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-
 ```
 iii) Using Gaussian Filter
 ```Python
@@ -73,11 +66,6 @@ sigmaY=0)
 cv2.imshow('gaussian_filter',gaussian_blur)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-
-
-
 ```
 
 iv) Using Median Filter
@@ -95,17 +83,11 @@ median = cv2.medianBlur(src=original_image,ksize = 11)
 cv2.imshow('median_filter',median)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-
-
 ```
 
 ### 2. Sharpening Filters
 i) Using Laplacian Kernal
 ```Python
-
-
 #i) Using Laplacian Kernal
 import cv2
 import numpy as np
@@ -119,9 +101,6 @@ laplacian_kernel = cv2.filter2D(original_image,-1,kernel3)
 cv2.imshow('laplacian_kernel',laplacian_kernel)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-
 ```
 ii) Using Laplacian Operator
 ```Python
@@ -137,14 +116,7 @@ laplacian_operator = cv2.Laplacian(original_image,cv2.CV_64F)
 cv2.imshow('laplacian_operator',laplacian_operator)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-
-
-
-
 ```
-
 ## OUTPUT:
 ### original image
 ![origi](https://github.com/JEEVAABI/IMPLEMENTATION-OF-FILTERSS/assets/93427098/6b6f4f09-8bae-4ef1-93a5-ee1da10d483f)
