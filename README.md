@@ -122,11 +122,8 @@ cv2.destroyAllWindows()
 ![origi](https://github.com/JEEVAABI/IMPLEMENTATION-OF-FILTERSS/assets/93427098/6b6f4f09-8bae-4ef1-93a5-ee1da10d483f)
 
 ### 1. Smoothing Filters
-
-
 i) Using Averaging Filter
 ![boxfil](https://github.com/JEEVAABI/IMPLEMENTATION-OF-FILTERSS/assets/93427098/8f969c65-4629-4957-98ed-cf08a1dea710)
-
 ii) Using Weighted Averaging Filter
 ![weight](https://github.com/JEEVAABI/IMPLEMENTATION-OF-FILTERSS/assets/93427098/ccce2e3c-1dde-476e-9a7e-b4e306052810)
 
