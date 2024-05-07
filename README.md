@@ -12,14 +12,11 @@ Read and show the image
 Apply the filtering technique that we want to perform
 ### Step3
 Show the filtered image
-
 ## Program:
 ### Developed By   :  Saravanan C
 ### Register Number:  212222110041
 </br>
-
 ### 1. Smoothing Filters
-
 i) Using Averaging Filter
 ```Python
 import cv2
